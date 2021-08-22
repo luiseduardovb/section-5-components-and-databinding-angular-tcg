@@ -4,7 +4,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  encapsulation: ViewEncapsulation.None, //This would make css files global
+  encapsulation: ViewEncapsulation.Emulated, //This is default setting
 })
 export class AppComponent {
   serverElements = [
