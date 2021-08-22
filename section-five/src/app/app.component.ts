@@ -4,7 +4,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  encapsulation: ViewEncapsulation.Emulated, //This is default setting
+  encapsulation: ViewEncapsulation.ShadowDom, //This is like  default setting but wont work in some browsers
 })
 export class AppComponent {
   serverElements = [
